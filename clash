@@ -5,1183 +5,571 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CYL-科技（2022.01.09）, server: shcn2-06b.iplc188.com, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: CYL-科技（2022.01.09） 3, server: 211.99.96.30, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: CYL-科技（2022.01.09） 4, server: 203.189.208.74, port: 48776, type: vmess, uuid: d40c20e7-a5c3-4dcf-93c3-b2d7efb1159f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 5, server: 107.182.234.233, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: CYL-科技（2022.01.09） 6, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 7, server: 101.132.173.78, port: 41993, type: vmess, uuid: e24ac30e-e296-4761-af23-7bda2781ba85, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 8, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: CYL-科技（2022.01.09） 9, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: CYL-科技（2022.01.09） 10, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: CYL-科技（2022.01.09） 11, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
-  - {name: CYL-科技（2022.01.09） 12, server: 3.140.186.194, port: 12000, type: ss, cipher: chacha20-ietf-poly1305, password: HOEE/A4midhmUn5Hy4A86A==, udp: true}
-  - {name: CYL-科技（2022.01.09） 13, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.09） 14, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.09） 15, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.01.09） 16, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CYL-科技（2022.01.09） 17, server: 54.38.150.64, port: 11021, type: vmess, uuid: f3e3a3ff-e879-4e50-c534-2355ebdcd151, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.38.150.64}, udp: true}
-  - {name: CYL-科技（2022.01.09） 18, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CYL-科技（2022.01.09） 19, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CYL-科技（2022.01.09） 20, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.09） 21, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: CYL-科技（2022.01.09） 22, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.01.09） 23, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 24, server: in04.2333dns.com, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: CYL-科技（2022.01.09） 25, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 26, server: 178.62.224.119, port: 8888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}, udp: true}
-  - {name: CYL-科技（2022.01.09） 27, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 28, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 29, server: cm-jm.okvpn.xyz, port: 20008, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: super-hk.smdynet.com}, udp: true}
-  - {name: CYL-科技（2022.01.09） 30, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: 12c49759-c4f2-44d1-bce0-728bda42f616, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 31, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.09） 32, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 33, server: 62.210.209.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.09） 34, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.09） 35, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 36, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 37, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 38, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: CYL-科技（2022.01.09） 39, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: CYL-科技（2022.01.09） 40, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: CYL-科技（2022.01.09） 41, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
-  - {name: CYL-科技（2022.01.09） 42, server: 47.99.142.242, port: 54497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 43, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.01.09） 44, server: 47.99.142.242, port: 54497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.01.09） 45, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CYL-科技（2022.01.09） 46, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: CYL-科技（2022.01.09） 47, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
-  - {name: CYL-科技（2022.01.09） 48, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_333 |11.28Mb, server: 120.232.239.101, port: 13040, type: vmess, uuid: f3ecf0d7-c7f1-3858-b6ae-06609b1540cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_335 |12.52Mb, server: 120.232.239.101, port: 16128, type: vmess, uuid: fa98b990-7df5-38eb-a3e6-b4d82052ddde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_328, server: 120.232.214.36, port: 5002, type: ss, cipher: aes-256-gcm, password: 1f6aca3cebd21a4cd5a80718ed16b74c, udp: true}
+  - {name: CYL-科技（2022.01.09） 29, server: cm-jm.okvpn.xyz, port: 20008, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: super-hk.smdynet.com}, udp: true}
+  - {name: CYL-科技（2022.01.09） 37, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
   - {name: US_1945+|95.34Mb, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: FR_469+|63.24Mb, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
-  - {name: US_1446+|+4.71Mb, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: BG_171+|50.63Mb, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: GB_533 |65.72Mb, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: US_1448+|+5.20Mb, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR_463+|27.64Mb, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_427+|58.98Mb, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_456+|53.41Mb, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: IL_588+|33.95Mb, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: FR_428+|55.74Mb, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_446+|60.83Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1421+|+0.19Mb, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: FR_426+|23.35Mb, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_471+|53.22Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1443+|+3.55Mb, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_433+|33.38Mb, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1432+|+0.43Mb, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: IL_587+|24.45Mb, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: US_1425+|+2.80Mb, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR_452+|19.47Mb, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1949+|+2.71Mb, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_313 |69.28Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: CA_314 |63.19Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: SG_903 | 6.64Mb, server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp, sni: fuck.biubiubiu.cloud, skip-cert-verify: true, udp: true}
-  - {name: CA_176+|+2.46Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1921+|12.46Mb, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1926+|+5.99Mb, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1450+|+1.99Mb, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1923+|+4.96Mb, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1452+|+1.83Mb, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1510+|+4.69Mb, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2083+|+2.87Mb, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1440+|+1.94Mb, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CN_329+|11.89Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: ZZ_2162+|+7.76Mb, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2087+|+7.93Mb, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1507+|+4.35Mb, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1447+|+2.45Mb, server: 38.75.136.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _28 |16.27Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_2239+|13.79Mb, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1828+|+6.19Mb, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2017+|+8.18Mb, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: DE_399+|36.99Mb, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: ZZ_2237+|+1.31Mb, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1422+|+1.68Mb, server: 38.143.66.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1470+|+7.68Mb, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_2079+|+7.42Mb, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2088+|+6.02Mb, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1467+|22.60Mb, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CH_319+|53.94Mb, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
-  - {name: US_1409+|+2.67Mb, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_2182+|+4.19Mb, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2178+|+3.37Mb, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: BG_26, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: US_267, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_112, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_115, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_227, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: FR_104, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: FR_103, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_110, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR_105, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU_19, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_113, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: IL_126, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: AU_21, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU_24, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_23, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: AU_22, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: PH_147, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: AU_18, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: AU_13, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: AU_25, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CYL-科技（2022.01.09） 40, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: b3638898-811d-4407-bd28-73a22590034b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
   - {name: NO_140, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: US_222, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_223, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_20, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_257, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_207, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_304, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_247, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_231, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Earth_52, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_271, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: CA_28, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_307, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AU_11, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU_7, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_278, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_30, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_160, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Earth_74, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_279, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_183, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_274, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_315, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_230, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_157, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NO_139, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国+27, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _IL_以色列, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: _US_美国+26, server: 38.75.136.93, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国+31, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国+18, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: default_name, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}, udp: true}
-  - {name: _US_美国+21, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国+13, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国+22, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国+29, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国+19, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国+11, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1507+|+4.35Mb, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: IL_587+|24.45Mb, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
+  - {name: US_1828+|+6.19Mb, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国->🇫🇷_FR_法国, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}, udp: true}
-  - {name: _US_美国+15, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _FR_法国, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国+8, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国+9, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国+55, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国+42, server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国+2, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国+33, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国+4, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国+57, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国+24, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国+30, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _NO_挪威, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: _US_美国+28, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _FR_法国+3, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国+25, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国+54, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国+7, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国+17, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国+3, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国+37, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国+56, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大+2, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国+5, server: 38.75.136.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国+7, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国+53, server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国+50, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国+32, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国+45, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国+51, server: 38.143.66.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国+9, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国+49, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _CA_加拿大+3, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大+4, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国+36, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国+47, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国+6, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _NO_挪威+3, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _FR_法国+5, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1806, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_865, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ, udp: true}
-  - {name: Relay_🇳🇴NO-🇳🇴NO_659, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: FR_370, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: BG_132, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: FR_395, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR_399, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇧🇬BG-🇧🇬BG_130, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: FR_407, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HU_498, server: 194.71.130.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: FR_385, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR_393, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_1990, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1113, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: FR_379, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: DE_314, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: US_1748, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_283, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: AU_42, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_405, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: NO_668, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CN_333+|11.80Mb, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: US_2070 |71.91Mb, server: 107.167.23.50, port: 8084, type: ssr, cipher: aes-256-cfb, password: RhKqtYoG8, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US_2049+|45.34Mb, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: FR_479+|63.24Mb, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
-  - {name: CN_336+|12.45Mb, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: FR_475+|53.41Mb, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR_465+|60.83Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR_446+|58.98Mb, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_447+|55.74Mb, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2080 |36.24Mb, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_445+|23.35Mb, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR_452+|33.38Mb, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: IL_605+|33.95Mb, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: BG_178+|42.45Mb, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: FR_482+|53.22Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_325 |63.19Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: CA_302 |69.28Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_1510+|+2.13Mb, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1514+|+2.67Mb, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2037+|10.73Mb, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR_426+|27.64Mb, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1558+|+4.98Mb, server: 38.143.66.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1016+|34.39Mb, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: FR_471+|19.47Mb, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2034+|+3.14Mb, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _34 |25.03Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_1513+|+5.03Mb, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1621+|+4.69Mb, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_203+|+2.07Mb, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_2188+|+2.87Mb, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2195+|+6.85Mb, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG_991 | 6.64Mb, server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp, sni: fuck.biubiubiu.cloud, skip-cert-verify: true, udp: true}
+  - {name: FR_428+|55.74Mb, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: US_1565+|+4.52Mb, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2054+|+2.71Mb, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2035+|+5.99Mb, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_340+|11.89Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: ZZ_2199+|11.00Mb, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1618+|+4.35Mb, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1527+|+1.68Mb, server: 38.143.66.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2202+|+1.35Mb, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_2289+|+4.19Mb, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1876+|+9.07Mb, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2036+|13.12Mb, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1532+|+1.83Mb, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国+56, server: 169.197.142.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_160, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1450+|+1.99Mb, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.09） 22, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.09） 33, server: 62.210.209.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1409+|+2.67Mb, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_157, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国+24, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1422+|+1.68Mb, server: 38.143.66.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国+57, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: ZZ_2280+|+6.49Mb, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN_341+|+5.67Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: US_1538+|+2.84Mb, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_2274+|+1.35Mb, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1936+|11.41Mb, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1585+|11.85Mb, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2270+|+8.18Mb, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2032+|+4.96Mb, server: 38.75.136.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1937+|+6.19Mb, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.09） 31, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2162+|+7.76Mb, server: 169.197.142.39, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CYL-科技（2022.01.09） 43, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG_903 | 6.64Mb, server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp, sni: fuck.biubiubiu.cloud, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大+2, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国+54, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1510+|+4.69Mb, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_223, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2036+|13.12Mb, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: AU_20, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_278, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2088+|+6.02Mb, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: ZZ_2286+|+3.17Mb, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1592+|12.67Mb, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _38 |16.27Mb, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_1597+|+2.57Mb, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _35 |17.89Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_2288+|+2.93Mb, server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1586+|+3.05Mb, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1589+|+6.47Mb, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NO_850+|13.85Mb, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1653+|+3.31Mb, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1568+|+3.85Mb, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_2284+|+3.37Mb, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_207, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1876+|+9.07Mb, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CYL-科技（2022.01.09） 19, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2237+|+1.31Mb, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大+3, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CYL-科技（2022.01.09） 39, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: ZZ_2182+|+4.19Mb, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_176+|+2.46Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_257, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: NO_139, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CYL-科技（2022.01.09） 16, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 9.97Mb", server: 203.189.208.74, port: 48776, type: vmess, uuid: d40c20e7-a5c3-4dcf-93c3-b2d7efb1159f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
+  - {name: "|61.52Mb", server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|48.30Mb", server: 47.99.142.242, port: 54497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇧🇬BG-🇧🇬BG_26, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: 142.202.48.43:5003, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_215, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 142.202.48.43:7307, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 142.202.48.43:2375, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 62.210.209.50:7307, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_207 2, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_222, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_202, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 172.105.251.193:8090, server: 172.105.251.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 38.75.136.93:8080, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 172.105.251.193:5004, server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 62.210.209.50:8009, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_111, server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 142.202.48.43:5004, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 172.105.251.193:3389, server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_78, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 172.105.251.193:2376, server: 172.105.251.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU_05, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_14, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_213, server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_06, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_161, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 172.105.180.227:8000, server: 172.105.180.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_214, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 172.105.180.227:9102, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_157 2, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_216, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 172.105.180.227:8882, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_153, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AU_21, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_149, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_03, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_117, server: 172.105.251.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 38.75.136.93:2376, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 172.105.180.227:8090, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_ | 3.82Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 172.105.180.227:6697, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_ | 3.52Mb, server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
+  - {name: 172.105.180.227:8009, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: FR_75, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_24, server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: AU_02, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 62.210.209.50:6697, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 172.105.180.227:8119, server: 172.105.180.227, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Relay_ | 3.85Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: FR_72, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_ | 6.31Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 2.94Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: FR_84, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU_22, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_259, server: 169.197.142.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_165, server: 38.75.136.93, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_155, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: DE_63, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: YouTube由零开始-美国, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 142.4.105.253}, udp: true}
+  - {name: YouTube由零开始-奥地利, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
+  - {name: YouTube由零开始-台湾, server: 47.99.142.242, port: 54497, type: vmess, uuid: 4b6b4c48-dbd6-4743-8e33-0049006b3068, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-墨西哥, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
+  - {name: YTB:鹏哥分享_DE_德国_6, server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: YouTube由零开始-台湾 2, server: 203.189.208.74, port: 48776, type: vmess, uuid: d40c20e7-a5c3-4dcf-93c3-b2d7efb1159f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YTB:鹏哥分享_DE_德国_13, server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: YTB:鹏哥分享_GB_英国_21, server: 149.7.16.10, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: YTB:鹏哥分享_GB_英国_19, server: 149.7.16.10, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: YTB:鹏哥分享_GB_英国_18, server: 149.7.16.10, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: YTB:鹏哥分享_GB_英国_16, server: 149.7.16.10, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: YouTube由零开始-美国 2, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube由零开始-澳大利亚, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube由零开始-美国 3, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: YouTube由零开始-法国, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube-由零开始-澳大利亚, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 俄罗斯, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}, udp: true}
+  - {name: YouTube由零开始-美国 4, server: free-russian-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3b29a023-5a4e-412a-a4a6-581437ad5679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}, udp: true}
+  - {name: YouTube由零开始-澳大利亚 2, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: YouTube由零开始-澳大利亚 3, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube由零开始-澳大利亚 4, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube由零开始-澳大利亚 5, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 俄罗斯 2, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: YouTube由零开始-美国 5, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 俄罗斯 3, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: 俄罗斯 4, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
+  - {name: 俄罗斯 5, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
+  - {name: 俄罗斯 6, server: v3.ssrsub.com, port: 443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: YouTube由零开始-加拿大, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube由零开始-美国 6, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v9.ssrsub.com}, udp: true}
+  - {name: YouTube由零开始-英国, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1200,1187 +588,577 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - YouTube由零开始-台湾
+      - YouTube由零开始-台湾 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2396,296 +1174,143 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CYL-科技（2022.01.09）
-      - CYL-科技（2022.01.09） 2
-      - CYL-科技（2022.01.09） 3
-      - CYL-科技（2022.01.09） 4
-      - CYL-科技（2022.01.09） 5
-      - CYL-科技（2022.01.09） 6
-      - CYL-科技（2022.01.09） 7
-      - CYL-科技（2022.01.09） 8
-      - CYL-科技（2022.01.09） 9
-      - CYL-科技（2022.01.09） 10
-      - CYL-科技（2022.01.09） 11
-      - CYL-科技（2022.01.09） 12
-      - CYL-科技（2022.01.09） 13
-      - CYL-科技（2022.01.09） 14
-      - CYL-科技（2022.01.09） 15
-      - CYL-科技（2022.01.09） 16
-      - CYL-科技（2022.01.09） 17
-      - CYL-科技（2022.01.09） 18
-      - CYL-科技（2022.01.09） 19
-      - CYL-科技（2022.01.09） 20
-      - CYL-科技（2022.01.09） 21
-      - CYL-科技（2022.01.09） 22
-      - CYL-科技（2022.01.09） 23
-      - CYL-科技（2022.01.09） 24
-      - CYL-科技（2022.01.09） 25
-      - CYL-科技（2022.01.09） 26
-      - CYL-科技（2022.01.09） 27
-      - CYL-科技（2022.01.09） 28
       - CYL-科技（2022.01.09） 29
-      - CYL-科技（2022.01.09） 30
-      - CYL-科技（2022.01.09） 31
-      - CYL-科技（2022.01.09） 32
-      - CYL-科技（2022.01.09） 33
-      - CYL-科技（2022.01.09） 34
-      - CYL-科技（2022.01.09） 35
-      - CYL-科技（2022.01.09） 36
       - CYL-科技（2022.01.09） 37
-      - CYL-科技（2022.01.09） 38
-      - CYL-科技（2022.01.09） 39
-      - CYL-科技（2022.01.09） 40
-      - CYL-科技（2022.01.09） 41
-      - CYL-科技（2022.01.09） 42
-      - CYL-科技（2022.01.09） 43
-      - CYL-科技（2022.01.09） 44
-      - CYL-科技（2022.01.09） 45
-      - CYL-科技（2022.01.09） 46
-      - CYL-科技（2022.01.09） 47
-      - CYL-科技（2022.01.09） 48
-      - CN_333 |11.28Mb
-      - CN_335 |12.52Mb
-      - CN_328
       - US_1945+|95.34Mb
-      - FR_469+|63.24Mb
-      - US_1446+|+4.71Mb
-      - BG_171+|50.63Mb
-      - GB_533 |65.72Mb
-      - US_1448+|+5.20Mb
-      - FR_463+|27.64Mb
-      - FR_427+|58.98Mb
-      - FR_456+|53.41Mb
-      - IL_588+|33.95Mb
-      - FR_428+|55.74Mb
-      - FR_446+|60.83Mb
-      - US_1421+|+0.19Mb
-      - FR_426+|23.35Mb
-      - FR_471+|53.22Mb
-      - US_1443+|+3.55Mb
-      - FR_433+|33.38Mb
-      - US_1432+|+0.43Mb
-      - IL_587+|24.45Mb
-      - US_1425+|+2.80Mb
-      - FR_452+|19.47Mb
-      - US_1949+|+2.71Mb
-      - CA_313 |69.28Mb
-      - CA_314 |63.19Mb
-      - SG_903 | 6.64Mb
-      - CA_176+|+2.46Mb
-      - US_1921+|12.46Mb
-      - US_1926+|+5.99Mb
-      - US_1450+|+1.99Mb
-      - US_1923+|+4.96Mb
-      - US_1452+|+1.83Mb
-      - US_1510+|+4.69Mb
-      - ZZ_2083+|+2.87Mb
-      - US_1440+|+1.94Mb
-      - CN_329+|11.89Mb
-      - ZZ_2162+|+7.76Mb
-      - ZZ_2087+|+7.93Mb
-      - US_1507+|+4.35Mb
-      - US_1447+|+2.45Mb
-      - _28 |16.27Mb
-      - ZZ_2239+|13.79Mb
-      - US_1828+|+6.19Mb
-      - ZZ_2017+|+8.18Mb
-      - DE_399+|36.99Mb
-      - ZZ_2237+|+1.31Mb
-      - US_1422+|+1.68Mb
-      - US_1470+|+7.68Mb
-      - ZZ_2079+|+7.42Mb
-      - ZZ_2088+|+6.02Mb
-      - US_1467+|22.60Mb
-      - CH_319+|53.94Mb
-      - US_1409+|+2.67Mb
-      - ZZ_2182+|+4.19Mb
-      - ZZ_2178+|+3.37Mb
-      - BG_26
-      - US_267
-      - FR_112
-      - FR_115
-      - US_227
-      - FR_104
-      - FR_103
-      - FR_110
-      - FR_105
-      - AU_19
-      - FR_113
-      - IL_126
-      - AU_21
-      - AU_24
-      - AU_23
-      - AU_22
-      - PH_147
-      - AU_18
-      - AU_13
-      - AU_25
+      - CYL-科技（2022.01.09） 40
       - NO_140
-      - US_222
-      - US_223
-      - AU_20
-      - US_257
-      - US_207
-      - US_304
-      - US_247
-      - US_231
-      - Earth_52
-      - US_271
-      - CA_28
-      - US_307
-      - AU_11
-      - AU_7
-      - US_278
-      - CA_30
-      - US_160
-      - Earth_74
-      - US_279
-      - US_183
-      - US_274
-      - US_315
-      - US_230
-      - US_157
-      - NO_139
-      - _US_美国+27
-      - _IL_以色列
-      - _US_美国+26
-      - _US_美国+31
-      - _US_美国+18
-      - default_name
-      - _US_美国+21
-      - _US_美国+13
-      - _US_美国+22
-      - _US_美国+29
-      - _US_美国+19
-      - _US_美国+11
+      - US_1507+|+4.35Mb
+      - IL_587+|24.45Mb
+      - US_1828+|+6.19Mb
       - _US_美国->🇫🇷_FR_法国
-      - _US_美国+15
-      - _FR_法国
-      - _US_美国+8
-      - _US_美国+9
-      - _US_美国+55
-      - _US_美国+42
-      - _US_美国+2
-      - _US_美国+33
-      - _US_美国+4
-      - _US_美国+57
-      - _US_美国+24
-      - _US_美国+30
-      - _NO_挪威
-      - _US_美国+28
-      - _FR_法国+3
-      - _US_美国+25
-      - _US_美国+54
-      - _FR_法国+7
-      - _US_美国+17
-      - _US_美国+3
-      - _US_美国+37
-      - _US_美国+56
-      - _CA_加拿大+2
-      - _US_美国+5
-      - _US_美国+7
-      - _US_美国+53
-      - _CA_加拿大
-      - _US_美国+50
-      - _US_美国+32
-      - _US_美国+45
-      - _US_美国+51
-      - _FR_法国+9
-      - _US_美国+49
-      - _CA_加拿大+3
-      - _CA_加拿大+4
-      - _US_美国+36
-      - _US_美国+47
-      - _FR_法国+6
-      - _NO_挪威+3
-      - _FR_法国+5
-      - US_1806
-      - Relay_🇺🇸US-🇺🇸US_865
-      - Relay_🇳🇴NO-🇳🇴NO_659
-      - FR_370
-      - BG_132
-      - FR_395
-      - FR_399
-      - Relay_🇧🇬BG-🇧🇬BG_130
-      - FR_407
-      - HU_498
-      - FR_385
-      - FR_393
-      - ZZ_1990
-      - US_1113
-      - FR_379
-      - DE_314
-      - US_1748
-      - CN_283
-      - AU_42
-      - FR_405
-      - NO_668
-      - CN_333+|11.80Mb
-      - US_2070 |71.91Mb
-      - US_2049+|45.34Mb
-      - FR_479+|63.24Mb
-      - CN_336+|12.45Mb
-      - FR_475+|53.41Mb
-      - FR_465+|60.83Mb
-      - FR_446+|58.98Mb
-      - FR_447+|55.74Mb
-      - US_2080 |36.24Mb
-      - FR_445+|23.35Mb
-      - FR_452+|33.38Mb
-      - IL_605+|33.95Mb
-      - BG_178+|42.45Mb
-      - FR_482+|53.22Mb
-      - CA_325 |63.19Mb
-      - CA_302 |69.28Mb
-      - US_1510+|+2.13Mb
-      - US_1514+|+2.67Mb
-      - US_2037+|10.73Mb
-      - FR_426+|27.64Mb
-      - US_1558+|+4.98Mb
-      - US_1016+|34.39Mb
-      - FR_471+|19.47Mb
-      - US_2034+|+3.14Mb
-      - _34 |25.03Mb
-      - US_1513+|+5.03Mb
-      - US_1621+|+4.69Mb
-      - CA_203+|+2.07Mb
-      - ZZ_2188+|+2.87Mb
-      - ZZ_2195+|+6.85Mb
-      - SG_991 | 6.64Mb
+      - FR_428+|55.74Mb
       - US_1565+|+4.52Mb
-      - US_2054+|+2.71Mb
-      - US_2035+|+5.99Mb
-      - CN_340+|11.89Mb
-      - ZZ_2199+|11.00Mb
-      - US_1618+|+4.35Mb
-      - US_1527+|+1.68Mb
-      - ZZ_2202+|+1.35Mb
-      - ZZ_2289+|+4.19Mb
-      - US_1876+|+9.07Mb
-      - US_2036+|13.12Mb
-      - US_1532+|+1.83Mb
+      - _US_美国+56
+      - US_160
+      - US_1450+|+1.99Mb
+      - CYL-科技（2022.01.09） 22
+      - CYL-科技（2022.01.09） 33
+      - US_1409+|+2.67Mb
+      - US_157
+      - _US_美国+24
+      - US_1422+|+1.68Mb
+      - _US_美国+57
       - ZZ_2280+|+6.49Mb
-      - CN_341+|+5.67Mb
-      - US_1538+|+2.84Mb
-      - ZZ_2274+|+1.35Mb
-      - US_1936+|11.41Mb
-      - US_1585+|11.85Mb
-      - ZZ_2270+|+8.18Mb
-      - US_2032+|+4.96Mb
-      - US_1937+|+6.19Mb
+      - CYL-科技（2022.01.09） 31
+      - ZZ_2162+|+7.76Mb
+      - CYL-科技（2022.01.09） 43
+      - SG_903 | 6.64Mb
+      - _CA_加拿大+2
+      - _US_美国+54
+      - US_1510+|+4.69Mb
+      - US_223
+      - US_2036+|13.12Mb
+      - AU_20
+      - US_278
+      - _CA_加拿大
+      - ZZ_2088+|+6.02Mb
       - ZZ_2286+|+3.17Mb
-      - US_1592+|12.67Mb
-      - _38 |16.27Mb
-      - US_1597+|+2.57Mb
-      - _35 |17.89Mb
-      - ZZ_2288+|+2.93Mb
-      - US_1586+|+3.05Mb
-      - US_1589+|+6.47Mb
-      - NO_850+|13.85Mb
-      - US_1653+|+3.31Mb
-      - US_1568+|+3.85Mb
-      - ZZ_2284+|+3.37Mb
+      - US_207
+      - US_1876+|+9.07Mb
+      - CYL-科技（2022.01.09） 19
+      - ZZ_2237+|+1.31Mb
+      - _CA_加拿大+3
+      - CYL-科技（2022.01.09） 39
+      - ZZ_2182+|+4.19Mb
+      - CA_176+|+2.46Mb
+      - US_257
+      - NO_139
+      - CYL-科技（2022.01.09） 16
+      - "| 9.97Mb"
+      - Relay_
+      - "|61.52Mb"
+      - "|48.30Mb"
+      - Relay_🇧🇬BG-🇧🇬BG_26
+      - 142.202.48.43:5003
+      - US_215
+      - 142.202.48.43:7307
+      - 142.202.48.43:2375
+      - 62.210.209.50:7307
+      - US_207 2
+      - US_222
+      - US_202
+      - 172.105.251.193:8090
+      - 38.75.136.93:8080
+      - 172.105.251.193:5004
+      - 62.210.209.50:8009
+      - JP_111
+      - 142.202.48.43:5004
+      - 172.105.251.193:3389
+      - FR_78
+      - 172.105.251.193:2376
+      - AU_05
+      - AU_14
+      - US_213
+      - AU_06
+      - US_161
+      - 172.105.180.227:8000
+      - US_214
+      - 172.105.180.227:9102
+      - US_157 2
+      - US_216
+      - 172.105.180.227:8882
+      - US_153
+      - AU_21
+      - US_149
+      - AU_03
+      - JP_117
+      - 38.75.136.93:2376
+      - 172.105.180.227:8090
+      - Relay_ | 3.82Mb
+      - 172.105.180.227:6697
+      - Relay_ | 3.52Mb
+      - 172.105.180.227:8009
+      - FR_75
+      - AU_24
+      - AU_02
+      - 62.210.209.50:6697
+      - 172.105.180.227:8119
+      - Relay_ | 3.85Mb
+      - FR_72
+      - Relay_ | 6.31Mb
+      - Relay_ | 2.94Mb
+      - FR_84
+      - AU_22
+      - ZZ_259
+      - US_165
+      - US_155
+      - DE_63
+      - YouTube由零开始-美国
+      - YouTube由零开始-奥地利
+      - YouTube由零开始-台湾
+      - YouTube由零开始-墨西哥
+      - YTB:鹏哥分享_DE_德国_6
+      - YouTube由零开始-台湾 2
+      - YTB:鹏哥分享_DE_德国_13
+      - YTB:鹏哥分享_GB_英国_21
+      - YTB:鹏哥分享_GB_英国_19
+      - YTB:鹏哥分享_GB_英国_18
+      - YTB:鹏哥分享_GB_英国_16
+      - YouTube由零开始-美国 2
+      - YouTube由零开始-澳大利亚
+      - YouTube由零开始-美国 3
+      - YouTube由零开始-法国
+      - YouTube-由零开始-澳大利亚
+      - 俄罗斯
+      - YouTube由零开始-美国 4
+      - YouTube由零开始-澳大利亚 2
+      - YouTube由零开始-澳大利亚 3
+      - YouTube由零开始-澳大利亚 4
+      - YouTube由零开始-澳大利亚 5
+      - 俄罗斯 2
+      - YouTube由零开始-美国 5
+      - 俄罗斯 3
+      - 俄罗斯 4
+      - 俄罗斯 5
+      - 俄罗斯 6
+      - YouTube由零开始-加拿大
+      - YouTube由零开始-美国 6
+      - YouTube由零开始-英国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
