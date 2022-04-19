@@ -5,143 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN中国TG/油管@阿伟科技 31, server: 183.232.56.161, port: 1612, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: CN中国TG/油管@阿伟科技 30, server: 183.232.56.161, port: 4099, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: CN中国TG/油管@阿伟科技 33, server: 183.232.56.161, port: 1101, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: CN中国TG/油管@阿伟科技 32, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: CYL-科技（2022.03.20）, server: 65.52.171.156, port: 8080, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CYL-科技（2022.03.20） 119, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: US美国TG/油管@阿伟科技 27, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US美国TG/油管@阿伟科技 26, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国TG/油管@阿伟科技 48, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 油管 TG 8度科技 70, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国TG/油管@阿伟科技 28, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: FR法国TG/油管@阿伟科技 2, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: US美国TG/油管@阿伟科技 45, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: TG/油管@阿伟科技, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
-  - {name: CYL-科技（2022.03.20） 135, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.03.20） 62, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CYL-科技（2022.03.20） 157, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国TG/油管@阿伟科技 50, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US美国TG/油管@阿伟科技 40, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CYL-科技（2022.03.20） 134, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
-  - {name: US美国TG/油管@阿伟科技 44, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CYL-科技（2022.03.20） 66, server: ocdb.vproxy.us, port: 34567, type: trojan, password: e0913474-5cf2-4917-96b2-f83b56e224e2, sni: ocdb.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.03.20） 88, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CYL-科技（2022.03.20） 95, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.03.20） 2, server: 183.232.56.161, port: 1615, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: CYL-科技（2022.03.20） 98, server: 5.44.249.43, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: CYL-科技（2022.03.21） 71, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TG/油管@阿伟科技 2, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fri.ncugo.cf}, udp: true}
-  - {name: CA加拿大TG/油管@阿伟科技 71, server: 134.195.196.3, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国TG/油管@阿伟科技 46, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CN_8du.shop 36, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 韩国【由零开始YouTube】, server: 146.56.184.37, port: 51511, type: ss, cipher: aes-256-gcm, password: awFW0Z7xzb, udp: true}
+  - {name: TW_8du.shop, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 42, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 31, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 50, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 53, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 39, server: 120.232.192.250, port: 3383, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 47, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 65, server: 217.30.10.64, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: CN_8du.shop 40, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 32, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 45, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 37, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 28, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: CN_8du.shop 55, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 48, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 60, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 澳大利亚YouTube阿伟科技 5, server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: PL_8du.shop 63, server: 217.30.10.68, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: PL_8du.shop 5, server: 217.30.10.64, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: wsclash1.free4444.xyz, port: 10019, type: vmess, uuid: b6124e52-b4bc-11ec-8937-00163cdcde4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /PnlgSf7a/, ws-headers: {Host: wsclash1.free4444.xyz}, udp: true}
+  - {name: CN_8du.shop 9, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop 12, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop 14, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 5, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _YouTube阿伟科技+27, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 14, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube阿伟科技+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 10, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_8du.shop 41, server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 54, server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: YouTube阿伟科技+4, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 4, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 15, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +184,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +230,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +364,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN中国TG/油管@阿伟科技 31
-      - CN中国TG/油管@阿伟科技 30
-      - CN中国TG/油管@阿伟科技 33
-      - CN中国TG/油管@阿伟科技 32
-      - CYL-科技（2022.03.20）
-      - CYL-科技（2022.03.20） 119
-      - US美国TG/油管@阿伟科技 27
-      - US美国TG/油管@阿伟科技 26
-      - US美国TG/油管@阿伟科技 48
-      - 油管 TG 8度科技 70
-      - US美国TG/油管@阿伟科技 28
-      - FR法国TG/油管@阿伟科技 2
-      - US美国TG/油管@阿伟科技 45
-      - TG/油管@阿伟科技
-      - CYL-科技（2022.03.20） 135
-      - CYL-科技（2022.03.20） 62
-      - CYL-科技（2022.03.20） 157
-      - US美国TG/油管@阿伟科技 50
-      - US美国TG/油管@阿伟科技 40
-      - CYL-科技（2022.03.20） 134
-      - US美国TG/油管@阿伟科技 44
-      - CYL-科技（2022.03.20） 66
-      - CYL-科技（2022.03.20） 88
-      - CYL-科技（2022.03.20） 95
-      - CYL-科技（2022.03.20） 2
-      - CYL-科技（2022.03.20） 98
-      - CYL-科技（2022.03.21） 71
-      - TG/油管@阿伟科技 2
-      - CA加拿大TG/油管@阿伟科技 71
-      - US美国TG/油管@阿伟科技 46
+      - CN_8du.shop 36
+      - 韩国【由零开始YouTube】
+      - TW_8du.shop
+      - CN_8du.shop 42
+      - CN_8du.shop 31
+      - CN_8du.shop 50
+      - CN_8du.shop 53
+      - CN_8du.shop 39
+      - CN_8du.shop 47
+      - PL_8du.shop 65
+      - CN_8du.shop 40
+      - CN_8du.shop 32
+      - CN_8du.shop 45
+      - CN_8du.shop 37
+      - PL_8du.shop 28
+      - CN_8du.shop 55
+      - CN_8du.shop 48
+      - PL_8du.shop 60
+      - 澳大利亚YouTube阿伟科技 5
+      - PL_8du.shop 63
+      - PL_8du.shop 5
+      - 美国（TG@阿伟科技/油管）
+      - CN_8du.shop 9
+      - CN_8du.shop 12
+      - CN_8du.shop 14
+      - 中国YouTube阿伟科技 5
+      - 中国YouTube阿伟科技 9
+      - _YouTube阿伟科技+27
+      - 中国YouTube阿伟科技 14
+      - YouTube阿伟科技+5
+      - 中国YouTube阿伟科技 10
+      - CN_8du.shop 41
+      - CN_8du.shop 54
+      - YouTube阿伟科技+4
+      - 中国YouTube阿伟科技 4
+      - 中国YouTube阿伟科技 15
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
