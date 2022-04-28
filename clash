@@ -5,167 +5,1127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_8du.shop 36, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 韩国【由零开始YouTube】, server: 146.56.184.37, port: 51511, type: ss, cipher: aes-256-gcm, password: awFW0Z7xzb, udp: true}
-  - {name: TW_8du.shop, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 42, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 31, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 50, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 53, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 39, server: 120.232.192.250, port: 3383, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 47, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL_8du.shop 65, server: 217.30.10.64, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: CN_8du.shop 40, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 32, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 45, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 37, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: PL_8du.shop 28, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: CN_8du.shop 55, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 48, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL_8du.shop 60, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 澳大利亚YouTube阿伟科技 5, server: 185.167.116.253, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: PL_8du.shop 63, server: 217.30.10.68, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: PL_8du.shop 5, server: 217.30.10.64, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: wsclash1.free4444.xyz, port: 10019, type: vmess, uuid: b6124e52-b4bc-11ec-8937-00163cdcde4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /PnlgSf7a/, ws-headers: {Host: wsclash1.free4444.xyz}, udp: true}
-  - {name: CN_8du.shop 9, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_8du.shop 12, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_8du.shop 14, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国YouTube阿伟科技 5, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: HK_38010+@WangCai_1, server: v4zx.v6speed.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1, server: v4zx.v6speed.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1, server: v4zx.v6speed.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1, server: v4zx.v6speed.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 香港HGC-2号线路(中转), server: 47.52.57.57, port: 443, type: vmess, uuid: 4cf713fb-67ff-433e-9372-2683332a6458, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: VN_38601+@WangCai_1, server: v4zx.v6speed.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1, server: v4zx.v6speed.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: IN_38613+@WangCai_1, server: v4zx.v6speed.com, port: 38613, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1, server: v4zx.v6speed.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1, server: v4zx.v6speed.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1, server: v4zx.v6speed.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 香港HGC～广东移动2  (中转), server: gzyd.xxcv.cc, port: 20030, type: trojan, password: 4cf713fb-67ff-433e-9372-2683332a6458, sni: gzyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: JP_38304+@WangCai_1, server: v4zx.v6speed.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 香港HGC-4号线路(中转), server: gzyd.xxcv.cc, port: 36660, type: vmess, uuid: 4cf713fb-67ff-433e-9372-2683332a6458, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: JP_38305+@WangCai_1, server: 124.71.118.225, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VIP-韩国首爾-1线/專線_24, server: vipsk1.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: PH_38603+@WangCai_1, server: v4zx.v6speed.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 尊-中國香港-1线/IPLC_3, server: hkbali.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: HK_38008+@WangCai_1, server: v4zx.v6speed.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38202+@WangCai_1, server: v4zx.v6speed.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1, server: 124.71.118.225, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 2, server: sgiplcv1.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1, server: v4zx.v6speed.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1, server: 124.71.118.225, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1, server: v4zx.v6speed.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1, server: v4zx.v6speed.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1, server: 124.71.118.225, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: IN_38613+@WangCai_1 2, server: 124.71.118.225, port: 38613, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 2, server: 120.232.82.202, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1 2, server: v4zx.v6speed.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 2, server: hinet-iplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38402+@WangCai_1, server: v4zx.v6speed.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1, server: v4zx.v6speed.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 2, server: 124.71.118.225, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1, server: 124.71.118.225, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1 2, server: v4zx.v6speed.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38402+@WangCai_1 2, server: 124.71.118.225, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 2, server: 124.71.118.225, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1, server: 124.71.118.225, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 2, server: 124.71.118.225, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 台湾Hinet-4号线路(中转), server: gzyd.xxcv.cc, port: 36660, type: vmess, uuid: 4cf713fb-67ff-433e-9372-2683332a6458, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: DE_38607+@WangCai_1, server: 124.71.118.225, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 2, server: 124.71.118.225, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3823, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3824, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: SG_38202+@WangCai_1 2, server: 124.71.118.225, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 2, server: 120.240.168.126, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1, server: 120.232.82.202, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: GB_38615+@WangCai_1, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38010+@WangCai_1 2, server: gzjpiplc.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 2, server: 120.232.82.202, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 2, server: ggiplc01.jfjfhg.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 3, server: hinet-iplc.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1 2, server: 120.240.168.126, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 2, server: gzjpiplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 2, server: v4zx.v6speed.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38010+@WangCai_1 3, server: 120.240.168.126, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 2, server: sgiplcv1.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 3, server: sgiplcv1.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 3, server: sgiplc01.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38504+@WangCai_1, server: v4zx.v6speed.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 3, server: 120.240.168.126, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 4, server: hinet-iplc.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: GB_38615+@WangCai_1 2, server: 124.71.118.225, port: 38615, type: ss, cipher: aes-128-gcm, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38010+@WangCai_1 4, server: sgiplc01.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 3, server: 120.240.168.126, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 2, server: 120.240.168.126, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 3, server: 120.232.82.202, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 5, server: 120.232.82.202, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 3, server: aflzz-tw.yixuedianzishu.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1 3, server: aflzz-us.yixuedianzishu.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享), server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: HK_38010+@WangCai_1 5, server: sgiplcv1.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1, server: 120.232.82.202, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 4, server: fliplc.getxlx.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 4, server: aflcn.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 3, server: aflzz-us.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 4, server: ggiplc03.jfjfhg.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 6, server: sgiplcv1.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 3, server: hinet-iplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 3, server: 120.232.82.202, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 4, server: aflzz-us.yixuedianzishu.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 5, server: flcn.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 4, server: fliplc.getxlx.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 4, server: aflzz-us.yixuedianzishu.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 5, server: fliplc.getxlx.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 2, server: 124.71.118.225, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 5, server: flzziplc.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 5, server: hinet-iplc.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: AR_38611+@WangCai_1, server: 124.71.118.225, port: 38611, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 6, server: 124.71.118.225, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1 2, server: 124.71.118.225, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 4, server: 124.71.118.225, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 4, server: huaweibgp.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 2, server: ggiplc01.jfjfhg.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 7, server: fliplc.getxlx.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 5, server: ggiplc03.jfjfhg.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 尊-韩国首爾-1线/專線_8, server: mmkr1ss.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: VN_38601+@WangCai_1 5, server: 124.71.118.225, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 3, server: 120.240.168.126, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 4, server: ggiplc01.jfjfhg.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 3, server: 120.240.168.126, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 6, server: aflzzul.yixuedianzishu.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 6, server: sgiplc01.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1, server: ggiplc03.jfjfhg.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 5, server: huaweibgp.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 4, server: 120.240.168.126, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: AR_38611+@WangCai_1 2, server: v4zx.v6speed.com, port: 38611, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 7, server: sgiplc01.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 8, server: huaweibgp.hntgxxjc.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1 3, server: gzjpiplc.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 2, server: aflzz-us.yixuedianzishu.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 7, server: sgiplcv1.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 6, server: gzjpiplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 3, server: hinet-iplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1 2, server: sgiplc01.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1 4, server: huaweibgp.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 5, server: 120.232.82.202, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 4, server: huaweibgp.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 7, server: sgiplc01.hntgxxjc.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 5, server: sgiplc01.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 7, server: flzziplc.yixuedianzishu.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 8, server: aflzz-us.yixuedianzishu.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1 5, server: sgiplcv1.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38401+@WangCai_1, server: 120.240.168.126, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 4, server: sgiplc01.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 6, server: aflzz-us.yixuedianzishu.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 6, server: fliplc.getxlx.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 尊-中國台湾1线/專線_6, server: tw1vipnf.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: HK_38004+@WangCai_1 6, server: aflzz-us.yixuedianzishu.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 3, server: 120.232.82.202, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 3, server: huaweibgp.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38010+@WangCai_1 6, server: aflzz-us.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 5, server: huaweibgp.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 2, server: gzjpiplc.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38006+@WangCai_1 7, server: sgiplcv1.hntgxxjc.com, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 8, server: sgiplc01.hntgxxjc.com, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 7, server: sgiplc01.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 3, server: fliplc.getxlx.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1 4, server: sgiplcv1.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 4, server: sgiplc01.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 5, server: 120.240.168.126, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 5, server: fliplc.getxlx.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 2, server: 120.240.168.126, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 8, server: gzjpiplc.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38204+@WangCai_1, server: fliplc.getxlx.com, port: 38204, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1 5, server: sgiplc01.hntgxxjc.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38003+@WangCai_1 6, server: fliplc.getxlx.com, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 6, server: sgiplc01.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 8, server: hinet-iplc.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1 3, server: hinet-iplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 9, server: huaweibgp.hntgxxjc.com, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 7, server: gzjpiplc.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 7, server: aflzz-us.yixuedianzishu.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38009+@WangCai_1 7, server: aflzz-us.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 5, server: fliplc.getxlx.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38002+@WangCai_1 9, server: fliplc.getxlx.com, port: 38002, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 9, server: hinet-iplc.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 8, server: fliplc.getxlx.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 2, server: 120.232.82.202, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38005+@WangCai_1 9, server: 120.240.168.126, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 4, server: sgiplc01.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 9, server: aflzz-us.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 5, server: fliplc.getxlx.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38402+@WangCai_1 3, server: ggiplc01.jfjfhg.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 3, server: ggiplc03.jfjfhg.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 6, server: hinet-iplc.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 6, server: ggiplc01.jfjfhg.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 7, server: fliplc.getxlx.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1 4, server: 120.232.82.202, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 3, server: fliplc.getxlx.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 6, server: ggiplc01.jfjfhg.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: PH_38603+@WangCai_1 8, server: hinet-iplc.hntgxxjc.com, port: 38603, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 10, server: ggiplc03.jfjfhg.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38004+@WangCai_1 7, server: sgiplc01.hntgxxjc.com, port: 38004, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38001+@WangCai_1 10, server: aflzz-tw.yixuedianzishu.com, port: 38001, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 7, server: aflzzul.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 6, server: aflzz-us.yixuedianzishu.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 4, server: ggiplc03.jfjfhg.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 11, server: 120.232.82.202, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 台湾(yudou66.com 玉豆分享), server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: JP_38304+@WangCai_1 4, server: gzjpiplc.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 5, server: sgiplc01.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 3, server: 120.232.82.202, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38401+@WangCai_1 2, server: huaweibgp.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 5, server: ggiplc01.jfjfhg.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 6, server: hinet-iplc.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 6, server: 120.232.82.202, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: VN_38601+@WangCai_1 12, server: sgiplc01.hntgxxjc.com, port: 38601, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 7, server: aflzz-us.yixuedianzishu.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 7, server: aflzz-us.yixuedianzishu.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1, server: fliplc.getxlx.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 8, server: sgiplcv1.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38401+@WangCai_1 3, server: 120.232.82.202, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 8, server: v4zx.v6speed.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38402+@WangCai_1 4, server: fliplc.getxlx.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38202+@WangCai_1 3, server: sgiplc01.hntgxxjc.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38202+@WangCai_1 4, server: 120.240.168.126, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 7, server: gzjpiplc.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38401+@WangCai_1 4, server: aflzz-us.yixuedianzishu.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 8, server: aflzz-us.yixuedianzishu.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38102+@WangCai_1 7, server: hinet-iplc.hntgxxjc.com, port: 38102, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 8, server: fliplc.getxlx.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38305+@WangCai_1 8, server: sgiplcv1.hntgxxjc.com, port: 38305, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 2, server: sgiplc01.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 9, server: huaweibgp.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 7, server: sgiplcv1.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 9, server: sgiplc01.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 3, server: 120.232.82.202, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 9, server: ggiplc01.jfjfhg.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TH_38605+@WangCai_1 9, server: sgiplcv1.hntgxxjc.com, port: 38605, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38103+@WangCai_1 9, server: sgiplc01.hntgxxjc.com, port: 38103, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38008+@WangCai_1 10, server: gzjpiplc.hntgxxjc.com, port: 38008, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38010+@WangCai_1 7, server: huaweibgp.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1 3, server: ggiplc03.jfjfhg.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1 5, server: ggiplc01.jfjfhg.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 10, server: sgiplcv1.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 11, server: hinet-iplc.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38105+@WangCai_1 8, server: hinet-iplc.hntgxxjc.com, port: 38105, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 4, server: hinet-iplc.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1 3, server: ggiplc03.jfjfhg.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38304+@WangCai_1 10, server: sgiplc01.hntgxxjc.com, port: 38304, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38104+@WangCai_1 6, server: gzjpiplc.hntgxxjc.com, port: 38104, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38504+@WangCai_1 2, server: hinet-iplc.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 12, server: gzjpiplc.hntgxxjc.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1 4, server: fliplc.getxlx.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 4, server: ggiplc03.jfjfhg.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 5, server: fliplc.getxlx.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38401+@WangCai_1 5, server: sgiplcv1.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38504+@WangCai_1 3, server: huaweibgp.hntgxxjc.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 6, server: aflzz-us.yixuedianzishu.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
   - {name: 中国YouTube阿伟科技 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _YouTube阿伟科技+27, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国YouTube阿伟科技 14, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: YouTube阿伟科技+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 中国YouTube阿伟科技 10, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_8du.shop 41, server: 106.75.168.104, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 54, server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技+4, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国YouTube阿伟科技 4, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_38501+@WangCai_1 5, server: aflzz-us.yixuedianzishu.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: YouTube阿伟科技+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_38502+@WangCai_1 4, server: 120.240.168.126, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: JP_38301+@WangCai_1 13, server: aflzz-us.yixuedianzishu.com, port: 38301, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1 4, server: hinet-iplc.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1 5, server: sgiplc01.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
   - {name: 中国YouTube阿伟科技 15, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: SG_38203+@WangCai_1 5, server: ggiplc03.jfjfhg.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: TW_38101+@WangCai_1 8, server: gzjpiplc.hntgxxjc.com, port: 38101, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: KR_38402+@WangCai_1 5, server: aflzz-us.yixuedianzishu.com, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38202+@WangCai_1 5, server: sgiplcv1.hntgxxjc.com, port: 38202, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 7, server: gzjpiplc.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 3, server: huaweibgp.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: HK_38007+@WangCai_1 10, server: 120.240.168.126, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38503+@WangCai_1 6, server: huaweibgp.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 4, server: 120.232.82.202, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 5, server: gzjpiplc.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 6, server: sgiplc01.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: CN_8du.shop 12, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: KR_38401+@WangCai_1 6, server: sgiplc01.hntgxxjc.com, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38501+@WangCai_1 7, server: hinet-iplc.hntgxxjc.com, port: 38501, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 7, server: huaweibgp.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 8, server: hinet-iplc.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38504+@WangCai_1 4, server: aflzz-us.yixuedianzishu.com, port: 38504, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 8, server: aflzz-us.yixuedianzishu.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 9, server: flcn.yixuedianzishu.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 7, server: aflzz-us.yixuedianzishu.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 9, server: ggiplc03.jfjfhg.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 5, server: 120.240.168.126, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: YouTube阿伟科技+4, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_38503+@WangCai_1 7, server: ggiplc01.jfjfhg.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: US_38502+@WangCai_1 10, server: hinet-iplc.hntgxxjc.com, port: 38502, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: FR_38609+@WangCai_1 10, server: sgiplc01.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 6, server: hinet-iplc.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: DE_38607+@WangCai_1 7, server: ggiplc01.jfjfhg.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: SG_38203+@WangCai_1 8, server: sgiplcv1.hntgxxjc.com, port: 38203, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
+  - {name: 尊-韩国首爾-3线/專線_10, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: US_38503+@WangCai_1 8, server: sgiplcv1.hntgxxjc.com, port: 38503, type: ss, cipher: chacha20-ietf-poly1305, password: 66aa4ba9-8df9-4d58-ad8e-1026a2b0219b, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,171 +1144,1138 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港HGC-2号线路(中转)
+      - 香港HGC～广东移动2  (中转)
+      - 香港HGC-4号线路(中转)
+      - 尊-中國香港-1线/IPLC_3
+      - 台湾Hinet-4号线路(中转)
+      - 尊-中國台湾1线/專線_6
+      - 台湾(yudou66.com 玉豆分享)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,42 +2291,282 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_8du.shop 36
-      - 韩国【由零开始YouTube】
-      - TW_8du.shop
-      - CN_8du.shop 42
-      - CN_8du.shop 31
-      - CN_8du.shop 50
-      - CN_8du.shop 53
-      - CN_8du.shop 39
-      - CN_8du.shop 47
-      - PL_8du.shop 65
-      - CN_8du.shop 40
-      - CN_8du.shop 32
-      - CN_8du.shop 45
-      - CN_8du.shop 37
-      - PL_8du.shop 28
-      - CN_8du.shop 55
-      - CN_8du.shop 48
-      - PL_8du.shop 60
-      - 澳大利亚YouTube阿伟科技 5
-      - PL_8du.shop 63
-      - PL_8du.shop 5
-      - 美国（TG@阿伟科技/油管）
-      - CN_8du.shop 9
-      - CN_8du.shop 12
-      - CN_8du.shop 14
-      - 中国YouTube阿伟科技 5
+      - HK_38010+@WangCai_1
+      - JP_38301+@WangCai_1
+      - HK_38003+@WangCai_1
+      - HK_38002+@WangCai_1
+      - 香港HGC-2号线路(中转)
+      - VN_38601+@WangCai_1
+      - HK_38007+@WangCai_1
+      - IN_38613+@WangCai_1
+      - TW_38103+@WangCai_1
+      - HK_38001+@WangCai_1
+      - HK_38005+@WangCai_1
+      - 香港HGC～广东移动2  (中转)
+      - JP_38304+@WangCai_1
+      - 香港HGC-4号线路(中转)
+      - JP_38305+@WangCai_1
+      - VIP-韩国首爾-1线/專線_24
+      - PH_38603+@WangCai_1
+      - 尊-中國香港-1线/IPLC_3
+      - HK_38008+@WangCai_1
+      - SG_38202+@WangCai_1
+      - TW_38102+@WangCai_1
+      - HK_38007+@WangCai_1 2
+      - TW_38105+@WangCai_1
+      - US_38501+@WangCai_1
+      - US_38502+@WangCai_1
+      - HK_38006+@WangCai_1
+      - TW_38101+@WangCai_1
+      - IN_38613+@WangCai_1 2
+      - HK_38002+@WangCai_1 2
+      - US_38501+@WangCai_1 2
+      - HK_38008+@WangCai_1 2
+      - KR_38402+@WangCai_1
+      - FR_38609+@WangCai_1
+      - TW_38103+@WangCai_1 2
+      - US_38503+@WangCai_1
+      - US_38503+@WangCai_1 2
+      - KR_38402+@WangCai_1 2
+      - US_38502+@WangCai_1 2
+      - TH_38605+@WangCai_1
+      - JP_38301+@WangCai_1 2
+      - 台湾Hinet-4号线路(中转)
+      - DE_38607+@WangCai_1
+      - HK_38005+@WangCai_1 2
+      - Relay_🇺🇸US-🇺🇸US_3823
+      - Relay_🇺🇸US-🇺🇸US_3824
+      - SG_38202+@WangCai_1 2
+      - PH_38603+@WangCai_1 2
+      - HK_38009+@WangCai_1
+      - GB_38615+@WangCai_1
+      - HK_38010+@WangCai_1 2
+      - JP_38305+@WangCai_1 2
+      - HK_38006+@WangCai_1 2
+      - HK_38005+@WangCai_1 3
+      - HK_38003+@WangCai_1 2
+      - HK_38001+@WangCai_1 2
+      - DE_38607+@WangCai_1 2
+      - HK_38010+@WangCai_1 3
+      - VN_38601+@WangCai_1 2
+      - HK_38002+@WangCai_1 3
+      - HK_38001+@WangCai_1 3
+      - US_38504+@WangCai_1
+      - HK_38008+@WangCai_1 3
+      - HK_38001+@WangCai_1 4
+      - GB_38615+@WangCai_1 2
+      - HK_38010+@WangCai_1 4
+      - VN_38601+@WangCai_1 3
+      - HK_38009+@WangCai_1 2
+      - TW_38103+@WangCai_1 3
+      - HK_38001+@WangCai_1 5
+      - PH_38603+@WangCai_1 3
+      - HK_38003+@WangCai_1 3
+      - 美国(yudou66.com 玉豆分享)
+      - HK_38010+@WangCai_1 5
+      - HK_38004+@WangCai_1
+      - VN_38601+@WangCai_1 4
+      - HK_38002+@WangCai_1 4
+      - HK_38007+@WangCai_1 3
+      - HK_38008+@WangCai_1 4
+      - HK_38001+@WangCai_1 6
+      - HK_38009+@WangCai_1 3
+      - HK_38006+@WangCai_1 3
+      - HK_38005+@WangCai_1 4
+      - HK_38002+@WangCai_1 5
+      - HK_38007+@WangCai_1 4
+      - HK_38006+@WangCai_1 4
+      - HK_38005+@WangCai_1 5
+      - HK_38005+@WangCai_1 6
+      - FR_38609+@WangCai_1 2
+      - HK_38008+@WangCai_1 5
+      - HK_38006+@WangCai_1 5
+      - AR_38611+@WangCai_1
+      - HK_38002+@WangCai_1 6
+      - HK_38004+@WangCai_1 2
+      - HK_38009+@WangCai_1 4
+      - PH_38603+@WangCai_1 4
+      - TH_38605+@WangCai_1 2
+      - HK_38001+@WangCai_1 7
+      - HK_38007+@WangCai_1 5
+      - 尊-韩国首爾-1线/專線_8
+      - VN_38601+@WangCai_1 5
+      - JP_38301+@WangCai_1 3
+      - JP_38301+@WangCai_1 4
+      - TH_38605+@WangCai_1 3
+      - VN_38601+@WangCai_1 6
+      - HK_38007+@WangCai_1 6
+      - HK_38006+@WangCai_1 6
+      - TW_38104+@WangCai_1
+      - HK_38009+@WangCai_1 5
+      - TW_38103+@WangCai_1 4
+      - AR_38611+@WangCai_1 2
+      - HK_38007+@WangCai_1 7
+      - HK_38001+@WangCai_1 8
+      - HK_38004+@WangCai_1 3
+      - TW_38101+@WangCai_1 2
+      - HK_38005+@WangCai_1 7
+      - HK_38009+@WangCai_1 6
+      - TW_38101+@WangCai_1 3
+      - TW_38104+@WangCai_1 2
+      - HK_38004+@WangCai_1 4
+      - JP_38301+@WangCai_1 5
+      - TH_38605+@WangCai_1 4
+      - HK_38002+@WangCai_1 7
+      - PH_38603+@WangCai_1 5
+      - VN_38601+@WangCai_1 7
+      - HK_38002+@WangCai_1 8
+      - HK_38004+@WangCai_1 5
+      - JP_38301+@WangCai_1 6
+      - KR_38401+@WangCai_1
+      - TW_38101+@WangCai_1 4
+      - HK_38008+@WangCai_1 6
+      - PH_38603+@WangCai_1 6
+      - 尊-中國台湾1线/專線_6
+      - HK_38004+@WangCai_1 6
+      - US_38502+@WangCai_1 3
+      - JP_38305+@WangCai_1 3
+      - HK_38010+@WangCai_1 6
+      - TW_38103+@WangCai_1 5
+      - TW_38102+@WangCai_1 2
+      - HK_38006+@WangCai_1 7
+      - HK_38005+@WangCai_1 8
+      - HK_38008+@WangCai_1 7
+      - TW_38102+@WangCai_1 3
+      - HK_38003+@WangCai_1 4
+      - TW_38102+@WangCai_1 4
+      - TW_38102+@WangCai_1 5
+      - TH_38605+@WangCai_1 5
+      - TW_38105+@WangCai_1 2
+      - VN_38601+@WangCai_1 8
+      - SG_38204+@WangCai_1
+      - HK_38003+@WangCai_1 5
+      - HK_38003+@WangCai_1 6
+      - TH_38605+@WangCai_1 6
+      - HK_38007+@WangCai_1 8
+      - TW_38104+@WangCai_1 3
+      - HK_38007+@WangCai_1 9
+      - PH_38603+@WangCai_1 7
+      - TH_38605+@WangCai_1 7
+      - HK_38009+@WangCai_1 7
+      - TW_38101+@WangCai_1 5
+      - HK_38002+@WangCai_1 9
+      - VN_38601+@WangCai_1 9
+      - HK_38008+@WangCai_1 8
+      - JP_38304+@WangCai_1 2
+      - HK_38005+@WangCai_1 9
+      - JP_38305+@WangCai_1 4
+      - HK_38001+@WangCai_1 9
+      - JP_38305+@WangCai_1 5
+      - KR_38402+@WangCai_1 3
+      - JP_38304+@WangCai_1 3
+      - TW_38103+@WangCai_1 6
+      - JP_38305+@WangCai_1 6
+      - TW_38103+@WangCai_1 7
+      - TW_38104+@WangCai_1 4
+      - TW_38105+@WangCai_1 3
+      - TW_38101+@WangCai_1 6
+      - PH_38603+@WangCai_1 8
+      - VN_38601+@WangCai_1 10
+      - HK_38004+@WangCai_1 7
+      - HK_38001+@WangCai_1 10
+      - JP_38301+@WangCai_1 7
+      - TW_38102+@WangCai_1 6
+      - TW_38105+@WangCai_1 4
+      - VN_38601+@WangCai_1 11
+      - 台湾(yudou66.com 玉豆分享)
+      - JP_38304+@WangCai_1 4
+      - TW_38105+@WangCai_1 5
+      - FR_38609+@WangCai_1 3
+      - KR_38401+@WangCai_1 2
+      - JP_38304+@WangCai_1 5
+      - JP_38304+@WangCai_1 6
+      - TW_38105+@WangCai_1 6
+      - VN_38601+@WangCai_1 12
+      - JP_38304+@WangCai_1 7
+      - TW_38105+@WangCai_1 7
+      - SG_38203+@WangCai_1
+      - JP_38304+@WangCai_1 8
+      - KR_38401+@WangCai_1 3
+      - TH_38605+@WangCai_1 8
+      - KR_38402+@WangCai_1 4
+      - SG_38202+@WangCai_1 3
+      - SG_38202+@WangCai_1 4
+      - JP_38305+@WangCai_1 7
+      - KR_38401+@WangCai_1 4
+      - TW_38103+@WangCai_1 8
+      - TW_38102+@WangCai_1 7
+      - JP_38301+@WangCai_1 8
+      - JP_38305+@WangCai_1 8
+      - SG_38203+@WangCai_1 2
+      - JP_38304+@WangCai_1 9
+      - TW_38101+@WangCai_1 7
+      - JP_38301+@WangCai_1 9
+      - SG_38203+@WangCai_1 3
+      - HK_38008+@WangCai_1 9
+      - TH_38605+@WangCai_1 9
+      - TW_38103+@WangCai_1 9
+      - HK_38008+@WangCai_1 10
+      - HK_38010+@WangCai_1 7
+      - US_38501+@WangCai_1 3
+      - TW_38104+@WangCai_1 5
+      - JP_38301+@WangCai_1 10
+      - JP_38301+@WangCai_1 11
+      - TW_38105+@WangCai_1 8
+      - SG_38203+@WangCai_1 4
+      - US_38503+@WangCai_1 3
+      - JP_38304+@WangCai_1 10
+      - TW_38104+@WangCai_1 6
+      - US_38504+@WangCai_1 2
+      - JP_38301+@WangCai_1 12
+      - US_38501+@WangCai_1 4
+      - FR_38609+@WangCai_1 4
+      - FR_38609+@WangCai_1 5
+      - KR_38401+@WangCai_1 5
+      - US_38504+@WangCai_1 3
+      - FR_38609+@WangCai_1 6
       - 中国YouTube阿伟科技 9
-      - _YouTube阿伟科技+27
-      - 中国YouTube阿伟科技 14
-      - YouTube阿伟科技+5
-      - 中国YouTube阿伟科技 10
-      - CN_8du.shop 41
-      - CN_8du.shop 54
-      - YouTube阿伟科技+4
       - 中国YouTube阿伟科技 4
+      - US_38501+@WangCai_1 5
+      - YouTube阿伟科技+5
+      - US_38502+@WangCai_1 4
+      - US_38501+@WangCai_1 6
+      - JP_38301+@WangCai_1 13
+      - US_38503+@WangCai_1 4
+      - US_38503+@WangCai_1 5
       - 中国YouTube阿伟科技 15
+      - SG_38203+@WangCai_1 5
+      - TW_38101+@WangCai_1 8
+      - KR_38402+@WangCai_1 5
+      - SG_38202+@WangCai_1 5
+      - SG_38203+@WangCai_1 6
+      - FR_38609+@WangCai_1 7
+      - DE_38607+@WangCai_1 3
+      - HK_38007+@WangCai_1 10
+      - US_38503+@WangCai_1 6
+      - DE_38607+@WangCai_1 4
+      - US_38502+@WangCai_1 5
+      - US_38502+@WangCai_1 6
+      - CN_8du.shop 12
+      - KR_38401+@WangCai_1 6
+      - US_38501+@WangCai_1 7
+      - US_38502+@WangCai_1 7
+      - FR_38609+@WangCai_1 8
+      - US_38504+@WangCai_1 4
+      - US_38502+@WangCai_1 8
+      - FR_38609+@WangCai_1 9
+      - SG_38203+@WangCai_1 7
+      - US_38502+@WangCai_1 9
+      - DE_38607+@WangCai_1 5
+      - YouTube阿伟科技+4
+      - US_38503+@WangCai_1 7
+      - US_38502+@WangCai_1 10
+      - FR_38609+@WangCai_1 10
+      - DE_38607+@WangCai_1 6
+      - DE_38607+@WangCai_1 7
+      - SG_38203+@WangCai_1 8
+      - 尊-韩国首爾-3线/專線_10
+      - US_38503+@WangCai_1 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
