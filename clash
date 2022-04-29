@@ -5,175 +5,371 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: 日本(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: 台湾(yudou66.com 玉豆分享), server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VIP-韩国首爾-1线/專線_24, server: vipsk1.msservicevip.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-日本東京-1线/專線/abema_7, server: startjpnian.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 尊-中國台湾1线/專線_6, server: tw1vipnf.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: 美国 (yudou66.com 玉豆分享), server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: TW-TJ_2, server: gc1.criskaka.com, port: 40044, type: trojan, password: SPGSPQMufI, sni: gc1.criskaka.com, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: 尊-韩国首爾-3线/專線_10, server: kr3-zx.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国, server: 192.18.142.28, port: 55051, type: vmess, uuid: 3f7c0994-0b8c-49b7-e4d1-5af10d554c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(yudou66.com 玉豆分享), server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇩🇪DE-🇩🇪DE_704, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆分享), server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-105.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 2, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_389 |12.21Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 3, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 4, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 5, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 6, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5, server: hk3cm.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 7, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 8, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 9, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 韩国(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 10, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 11, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 12, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 台湾(yudou66.com+玉豆分享), server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
-  - {name: 中国YouTube阿伟科技 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_382 |12.22Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube@阿阳AYANG, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: 04d83e9e-d6ff-49ca-9c32-082b9b9c9c54, sni: rbmf.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 2, server: vps.qweasdzxc.ml, port: 443, type: vmess, uuid: 4850777c-1d10-4651-9936-27a2a500b9a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vps.qweasdzxc.ml}, udp: true}
+  - {name: YouTube@阿阳AYANG 3, server: jp05-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-tls-vm0.entry.vm-pass.org}, udp: true}
   - {name: AU_143 |11.05Mb, server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: e816d28a-c617-4954-87f6-aac16c3189f5, sni: ceshi.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3823, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆分享), server: ceshi.speedcncnforward3.tk, port: 8443, type: trojan, password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6, sni: ceshi.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 4, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 5, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 6, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 7, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 8, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆分享) 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: US_油管频道 全网最强白嫖, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 9, server: 120.240.48.20, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: YouTube@阿阳AYANG 10, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, sni: shop-two.defun.us, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 11, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 12, server: hkaz4.xmrth-node.xyz, port: 13302, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享), server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
+  - {name: 卢森堡(yudou66.com 玉豆分享), server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: 日本(yudou66.com 玉豆分享), server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: YouTube@阿阳AYANG 13, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: YouTube@阿阳AYANG 14, server: gz-1.jiasugou.one, port: 15000, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆分享) 3, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 日本(yudou66.com 玉豆分享) 2, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: YouTube@阿阳AYANG 15, server: 120.240.48.20, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 2, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港(yudou66.com 玉豆分享), server: hk3.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.cloudlink123.com}, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube@阿阳AYANG 16, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 2, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: YouTube@阿阳AYANG 17, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 3, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 2, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 3, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: US_2690 |87.32Mb, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, sni: shop-three.defun.us, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3824, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, sni: miner-one.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 18, server: jp02-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp02-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: YouTube@阿阳AYANG 19, server: jp03-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: YouTube@阿阳AYANG 20, server: jp06-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp06-vm0.entry.ikuuu.casa}, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 4, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube@阿阳AYANG 21, server: jp01-tls-vm0.entry.ikuuu.casa, port: 892, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp01-tls-vm0.entry.vm-pass.org}, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_389 |12.21Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管频道 全网最强白嫖, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
+  - {name: 乌克兰(yudou66.com 玉豆分享), server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 104ce500-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 6, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 7, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国YouTube阿伟科技 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 8, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 9, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_382 |12.22Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 10, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 11, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国 12, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 3, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v6d1.moonfree.top}, udp: true}
+  - {name: YouTube@阿阳AYANG 22, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 4, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5, server: hk3cm.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: YouTube@阿阳AYANG 23, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 24, server: sg-sr-114.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-114.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国(yudou66.com 玉豆分享), server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 4, server: 20.214.159.88, port: 1021, type: trojan, password: da581cfe-683f-3169-9933-f221a5c0426c, skip-cert-verify: true, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 5, server: v1tw01.kuli888.xyz, port: 52035, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1tw01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本(yudou66.com 玉豆分享) 3, server: 104.17.67.190, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 6, server: hkt2dyn.msservicezx.pw, port: 6323, type: ss, cipher: aes-256-cfb, password: !<str> 37703908, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 5, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
+  - {name: TG@ YouTubeAYANG*科技大师, server: 104.25.234.170, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
+  - {name: 法国(yudou66.com 玉豆分享), server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: US_油管频道 全网最强白嫖 2, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: YouTube@阿阳AYANG 25, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/173418141123, ws-headers: {Host: www.17080100.xyz}, udp: true}
+  - {name: 韩国(yudou66.com 玉豆分享), server: v2-5.godlight.xyz, port: 39786, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 6, server: oz.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
+  - {name: YouTube@阿阳AYANG 26, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 27, server: jp04-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bf419d5f59f7d0.windowsupdate.com}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 7, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 28, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: hkaz1.xmrth-node.xyz}, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 7, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uscera.moonfree.top}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 8, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 29, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 30, server: 152.67.72.152, port: 2053, type: trojan, password: da581cfe-683f-3169-9933-f221a5c0426c, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 31, server: jp01-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: cef5d1ec-67eb-3d25-84d0-c349645ba96c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bf419d5f59f96a.windowsupdate.com}, udp: true}
+  - {name: YouTube@阿阳AYANG 32, server: hkaz1.xmrth-node.xyz, port: 10062, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: HK_油管频道 全网最强白嫖, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享) 8, server: 149.248.1.76, port: 27266, type: vmess, uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /QEc5C9RG/, ws-headers: {Host: 149.248.1.76}, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 9, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_油管频道 全网最强白嫖 10, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 0ea4ffba-f5d3-324b-946b-8db5c50266cb, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube@阿阳AYANG 33, server: sh.pupu.live, port: 32330, type: vmess, uuid: 32b546f7-05c5-346c-a7ad-8ad58c903c4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jprz1.jjzgy.live}, udp: true}
+  - {name: TG@ YouTubeAYANG*科技大师 2, server: az03.kuli888.xyz, port: 80, type: vmess, uuid: 5e8c99a7-2c7b-3e0e-a3c9-3c5b41cb7101, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: az03.kuli888.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,183 +388,377 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(yudou66.com 玉豆分享)
-      - 尊-中國台湾1线/專線_6
+      - 香港(yudou66.com 玉豆分享)
       - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
-      - 台湾(yudou66.com+玉豆分享)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -384,44 +774,93 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡(yudou66.com+玉豆分享)
-      - 日本(yudou66.com+玉豆分享)
-      - 台湾(yudou66.com 玉豆分享)
-      - VIP-韩国首爾-1线/專線_24
-      - 尊-日本東京-1线/專線/abema_7
-      - 尊-中國台湾1线/專線_6
-      - 美国 (yudou66.com 玉豆分享)
-      - 美国(yudou66.com+玉豆分享)
-      - TW-TJ_2
-      - 俄罗斯(yudou66.com+玉豆分享)
-      - 尊-韩国首爾-3线/專線_10
-      - (Youtube技术分享室)🇺🇸美国
+      - YouTube@阿阳AYANG
+      - YouTube@阿阳AYANG 2
+      - YouTube@阿阳AYANG 3
+      - AU_143 |11.05Mb
       - 新加坡(yudou66.com 玉豆分享)
-      - Relay_🇩🇪DE-🇩🇪DE_704
+      - YouTube@阿阳AYANG 4
+      - YouTube@阿阳AYANG 5
+      - YouTube@阿阳AYANG 6
+      - YouTube@阿阳AYANG 7
+      - YouTube@阿阳AYANG 8
+      - 新加坡(yudou66.com 玉豆分享) 2
+      - US_油管频道 全网最强白嫖
+      - YouTube@阿阳AYANG 9
+      - YouTube@阿阳AYANG 10
+      - YouTube@阿阳AYANG 11
+      - YouTube@阿阳AYANG 12
       - 美国(yudou66.com 玉豆分享)
+      - 卢森堡(yudou66.com 玉豆分享)
+      - CN_油管频道 全网最强白嫖
+      - 日本(yudou66.com 玉豆分享)
+      - YouTube@阿阳AYANG 13
+      - YouTube@阿阳AYANG 14
+      - 新加坡(yudou66.com 玉豆分享) 3
+      - 日本(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 15
+      - CN_油管频道 全网最强白嫖 2
+      - 香港(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国
+      - YouTube@阿阳AYANG 16
+      - 美国(yudou66.com 玉豆分享) 2
+      - YouTube@阿阳AYANG 17
+      - CN_油管频道 全网最强白嫖 3
       - (Youtube技术分享室)🇨🇳中国 2
-      - CN_389 |12.21Mb
       - (Youtube技术分享室)🇨🇳中国 3
+      - US_2690 |87.32Mb
+      - YouTube@阿阳AYANG 18
+      - YouTube@阿阳AYANG 19
+      - YouTube@阿阳AYANG 20
       - (Youtube技术分享室)🇨🇳中国 4
+      - YouTube@阿阳AYANG 21
       - (Youtube技术分享室)🇨🇳中国 5
+      - CN_389 |12.21Mb
+      - 油管频道 全网最强白嫖
+      - 乌克兰(yudou66.com 玉豆分享)
       - (Youtube技术分享室)🇨🇳中国 6
-      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
       - (Youtube技术分享室)🇨🇳中国 7
+      - 中国YouTube阿伟科技 9
       - (Youtube技术分享室)🇨🇳中国 8
       - (Youtube技术分享室)🇨🇳中国 9
-      - 韩国(yudou66.com+玉豆分享)
+      - CN_382 |12.22Mb
       - (Youtube技术分享室)🇨🇳中国 10
       - (Youtube技术分享室)🇨🇳中国 11
       - (Youtube技术分享室)🇨🇳中国 12
-      - 台湾(yudou66.com+玉豆分享)
-      - 中国YouTube阿伟科技 9
-      - CN_382 |12.22Mb
-      - AU_143 |11.05Mb
-      - Relay_🇺🇸US-🇺🇸US_3823
-      - US_2690 |87.32Mb
-      - Relay_🇺🇸US-🇺🇸US_3824
-      - _US_美国
+      - 美国(yudou66.com 玉豆分享) 3
+      - YouTube@阿阳AYANG 22
+      - CN_油管频道 全网最强白嫖 4
+      - 尊-中國香港-3线/專線/TVB/ViuTV/HKTV_5
+      - YouTube@阿阳AYANG 23
+      - YouTube@阿阳AYANG 24
+      - _KR_韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 4
+      - CN_油管频道 全网最强白嫖 5
+      - 日本(yudou66.com 玉豆分享) 3
+      - CN_油管频道 全网最强白嫖 6
+      - 美国(yudou66.com 玉豆分享) 5
+      - TG@ YouTubeAYANG*科技大师
+      - 法国(yudou66.com 玉豆分享)
+      - US_油管频道 全网最强白嫖 2
+      - YouTube@阿阳AYANG 25
+      - 韩国(yudou66.com 玉豆分享)
+      - 美国(yudou66.com 玉豆分享) 6
+      - YouTube@阿阳AYANG 26
+      - YouTube@阿阳AYANG 27
+      - CN_油管频道 全网最强白嫖 7
+      - YouTube@阿阳AYANG 28
+      - 美国(yudou66.com 玉豆分享) 7
+      - CN_油管频道 全网最强白嫖 8
+      - YouTube@阿阳AYANG 29
+      - YouTube@阿阳AYANG 30
+      - YouTube@阿阳AYANG 31
+      - YouTube@阿阳AYANG 32
+      - HK_油管频道 全网最强白嫖
+      - 美国(yudou66.com 玉豆分享) 8
+      - CN_油管频道 全网最强白嫖 9
+      - CN_油管频道 全网最强白嫖 10
+      - YouTube@阿阳AYANG 33
+      - TG@ YouTubeAYANG*科技大师 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10623,4 +11062,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
- 
