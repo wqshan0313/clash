@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: wqshan, server: 138.2.37.102, port: 2244, type: ss, cipher: aes-256-gcm, password: !<str> 2317198114, udp: true}
+  - {name: wqshan, server: 138.2.46.87, port: 2244, type: ss, cipher: aes-256-gcm, password: !<str> 2317198114, udp: true}
   - {name: 130335, server: 131.186.16.95, port: 2244, type: ss, cipher: aes-256-gcm, password: !<str> 2317198114, udp: true}
-  - {name: L, server: 141.148.148.192, port: 8002, type: ss, cipher: aes-256-gcm, password: !<str> 2317198114, udp: true}
+  - {name: LJ, server: 141.148.148.192, port: 8002, type: ss, cipher: aes-256-gcm, password: !<str> 2317198114, udp: true}
   - {name: wqshan 2, server: 138.2.46.87, port: 9833, type: vmess, uuid: a29b2e84-c45f-416c-8fe6-182528acde3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 130335 2, server: 131.186.16.95, port: 8933, type: vmess, uuid: 2c4a73ab-9b6c-4827-8b49-f0beca3e77cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 130335 2, server: 131.186.16.95, port: 9833, type: vmess, uuid: 5d31178f-132b-415e-80d1-7d2e39ed7053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ljz0313, server: 141.148.148.192, port: 8933, type: vmess, uuid: 882ff554-fcb0-437e-875a-dbe009d9473d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
